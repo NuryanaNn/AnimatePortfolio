@@ -1,0 +1,264 @@
+/* Bagian Navbar */
+body{
+    height: 400px;
+}
+
+/* Bagian dari Index.html */
+.navbar{
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(50px);
+    z-index: 10;
+    position: absolute;
+}
+
+.navbar-toggler{
+    margin-left: 190px;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+/* Akhir Navbar */
+
+
+/* Bagian Jumbotron */
+.jumbotron{
+    background-image: url('img/bg.png');
+    background-repeat: no-repeat;
+    height: 580px;
+    background-size: cover;
+}
+
+.jumbotron img{
+    height: 270px;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 50%;
+}
+
+/* Bagian Box dan Gambar dari jumbotron */
+/* Ul Pertama Html,css */
+.ul_1{
+    margin-top: -300px;
+    display: flex;
+    list-style: none;
+    margin-left: 60px;
+}
+#box2, #box3{
+    height: 80px; /* Turunan dari ul_1*/
+}
+
+/* Bagian Ul 2 Bootstrap, js, github */
+.ul_2{
+    margin-top: -220px;
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+#box4, #box5, #box6{
+    height: 80px; /* Turunan dari ul_2*/
+}
+
+/* Bagian Ul_3 CI, PHP MySQl */
+.ul_3{
+    margin-top: -240px;
+    display: flex;
+    list-style: none;
+    margin-left: -50px;
+}
+#box7, #box8, #box9, #box10{
+    height: 90px;
+}
+
+/* Bagian Nama H2 */
+.nama h2{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+}
+.nama p{
+    text-align: center;
+}
+
+.span1{
+    color: white;
+}
+
+.nama h4{
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 15px;
+}
+.find_me{
+    list-style: none;
+    display: flex;
+    margin-top: -25px;
+    margin-left: -10px;
+}
+
+.find_me li img{
+    height: 50px;
+}
+/* Akhir Jumbotron */
+/* Bagian akhir dari index.html */
+
+
+/* Section Dari About Me */
+.jumbo{
+    background-image: url('img/bg.png');
+    height:1100px;
+}
+
+.jumbo img{
+    margin-top: -1px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+}
+
+.view li{
+    list-style: none;
+
+}
+
+.view{
+    display: flex;
+    margin-left: 30%;
+
+}
+
+.teks{
+    text-align: center;
+}
+
+
+
+
+
+/* Desktop Mode */
+@media(min-width:992px){
+    /* Bagian Navbar */
+    body{
+        height: 700px;
+    }
+
+    /* Bagian Index.html */
+    .navbar{
+        background-color: rgba(2550, 255, 255, .15);
+        backdrop-filter: blur(50px);
+        z-index: 10;
+        position: relative;
+        margin-top: -2px;
+    }
+
+    .navbar-brand{
+        color: white !important;
+    }
+
+    /* Bagian Jumbotron */
+    .jumbotron{
+        background-image: url('img/bg.png');
+        background-repeat: no-repeat;
+        height: 700px;
+        background-size: cover;
+        margin-top: -60px;
+    }
+
+    .jumbotron img{
+        height: 300px;
+        justify-content: center;
+        margin-left: 40%;
+        margin-top: 30%;
+    }
+
+    /* Bagian Box dan Gambar dari jumbotron */
+/* Ul Pertama Html,css */
+.ul_1{
+    margin-top: -300px;
+    display: flex;
+    list-style: none;
+    margin-left: 420px;
+}
+#box2, #box3{
+    height: 80px;
+}
+
+/* Bagian Ul 2 Bootstrap, js, github */
+.ul_2{
+    margin-top: -220px;
+    display: flex;
+    list-style: none;
+    margin-left:380px;
+}
+#box4, #box5, #box6{
+    height: 80px; /* Turunan dari ul_2*/
+}
+
+/* Bagian Ul_3 CI, PHP MySQl */
+.ul_3{
+    margin-top: -240px;
+    display: flex;
+    list-style: none;
+    margin-left: 310px;
+}
+#box7, #box8, #box9, #box10{
+    height: 90px;
+}
+
+/* Bagian Teks Dari Jumbotron */
+.nama h2{
+    color: white;
+    font-size: 50px;
+    margin-top: -40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+}
+
+.nama h4{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.find_me{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.find_me li img{
+    height: 50px;
+}
+/* Akhir Jumbotron */
+/* Akhir Index.html */
+
+
+/* Bagian Dari About me */
+.jumbo img{
+    margin-top: -7px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+}
+
+.view li{
+    list-style: none;
+}
+
+.view{
+    display: flex;
+}
+
+}
