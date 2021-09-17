@@ -1,7 +1,4 @@
 /* Bagian Navbar */
-body{
-    height: 400px;
-}
 
 /* Bagian dari Index.html */
 .navbar{
@@ -19,6 +16,10 @@ body{
 .nav-link{
     color: white !important;
 }
+
+.navbar-toggler{
+    margin-left: 160px;
+}
 /* Akhir Navbar */
 
 
@@ -26,7 +27,7 @@ body{
 .jumbotron{
     background-image: url('img/bg.png');
     background-repeat: no-repeat;
-    height: 580px;
+    height: 900px;
     background-size: cover;
 }
 
@@ -34,13 +35,13 @@ body{
     height: 270px;
     justify-content: center;
     margin-left: 15%;
-    margin-top: 50%;
+    margin-top: 400px;
 }
 
 /* Bagian Box dan Gambar dari jumbotron */
 /* Ul Pertama Html,css */
 .ul_1{
-    margin-top: -300px;
+    margin-top: -700px;
     display: flex;
     list-style: none;
     margin-left: 60px;
@@ -51,10 +52,12 @@ body{
 
 /* Bagian Ul 2 Bootstrap, js, github */
 .ul_2{
-    margin-top: -220px;
+    margin-top: -600px;
     display: flex;
     list-style: none;
     margin-left: 20px;
+    padding-bottom: 550px;
+
 }
 #box4, #box5, #box6{
     height: 80px; /* Turunan dari ul_2*/
@@ -62,7 +65,7 @@ body{
 
 /* Bagian Ul_3 CI, PHP MySQl */
 .ul_3{
-    margin-top: -240px;
+    margin-top: -1150px;
     display: flex;
     list-style: none;
     margin-left: -50px;
@@ -75,11 +78,11 @@ body{
 .nama h2{
     color: white;
     font-size: 50px;
-    margin-top: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-align: center;
     margin-top: 200px;
+    position: relative;
 }
 .nama p{
     text-align: center;
@@ -98,12 +101,21 @@ body{
 .find_me{
     list-style: none;
     display: flex;
-    margin-top: -25px;
+    margin-top: -370px;
     margin-left: -10px;
 }
 
 .find_me li img{
     height: 50px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 60px;
+    margin-top: -35px;
+    font-size: 20px;
+    padding-top: 15px;
 }
 /* Akhir Jumbotron */
 /* Bagian akhir dari index.html */
@@ -145,10 +157,6 @@ body{
 /* Desktop Mode */
 @media(min-width:992px){
     /* Bagian Navbar */
-    body{
-        height: 700px;
-    }
-
     /* Bagian Index.html */
     .navbar{
         background-color: rgba(2550, 255, 255, .15);
@@ -166,7 +174,7 @@ body{
     .jumbotron{
         background-image: url('img/bg.png');
         background-repeat: no-repeat;
-        height: 700px;
+        height: 1000px;
         background-size: cover;
         margin-top: -60px;
     }
@@ -175,7 +183,7 @@ body{
         height: 300px;
         justify-content: center;
         margin-left: 40%;
-        margin-top: 30%;
+        margin-top: 25%;
     }
 
     /* Bagian Box dan Gambar dari jumbotron */
@@ -203,7 +211,7 @@ body{
 
 /* Bagian Ul_3 CI, PHP MySQl */
 .ul_3{
-    margin-top: -240px;
+    margin-top: -800px;
     display: flex;
     list-style: none;
     margin-left: 310px;
