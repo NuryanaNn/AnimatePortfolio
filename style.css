@@ -11,9 +11,6 @@ body{
     position: absolute;
 }
 
-.navbar-toggler{
-    margin-left: 170px;
-}
 
 .navbar-brand{
     color: white !important;
